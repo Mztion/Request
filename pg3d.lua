@@ -11,9 +11,9 @@ function Choices ()
             local Choice_3 = gg.choice({"[ Level ]"},nil, "Home > Player")
             if Choice_3 == 1 then
                 
-                gg.searchNumber("h 00 00 50 E3 04 00 00 1A 54 00 9F E5 00 00 9F E7", gg.TYPE_BYTE)
+                gg.searchNumber("h 00 00 50 E3 04 00 00 1A 54 00 9F E5 00 00 9F E7", gg.TYPE_DWORD)
                 gg.getResults(100000)
-                gg.editAll("h A0 F0 8F D2 C0 03 5F D6 F3 7B 02 A9 B4 F6 01 D0 88 BA 78 39 F3 03 00 AA 28 01 00 37 E0 D3 01 90", gg.TYPE_BYTE)
+                gg.editAll("h A0 F0 8F D2 C0 03 5F D6 F3 7B 02 A9 B4 F6 01 D0 88 BA 78 39 F3 03 00 AA 28 01 00 37 E0 D3 01 90", gg.TYPE_DWORD)
 
             end
 
